@@ -26,9 +26,7 @@ namespace Картина_Безье
             PointF[] aptf = new PointF[4];
             int cx = ClientSize.Width;
             int cy = ClientSize.Height;
-            Graphics grfx = e.Graphics;
-
-            
+            Graphics grfx = e.Graphics;            
 
             for(int i = 0; i < iNum; i++)
             {
